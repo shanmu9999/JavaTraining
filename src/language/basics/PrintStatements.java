@@ -33,14 +33,13 @@ public class PrintStatements {
 		System.out.println();
 		
 		//Print the logs.
-		Logger logger = Logger.getLogger("Hello World");
+		Logger logger = Logger.getLogger("Print Statments");
 		logger.info("There is an information within line number 35. Program is going well.");
-		System.out.println();
 		logger.warning("Hey Bharath, there is a warning. I think something is going wrong in line number 37.");
 		System.out.println();
 		
 		//Print and export the logs into a text file.
-		PrintWriter log = new PrintWriter("");
+		PrintWriter log = new PrintWriter("C:\\Users\\Shanmukhasai\\eclipse-workspace\\Helloworld.txt");
 		log.println("Currently, line number 42 is executed successfully.");
 		log.println("Currently, line number 43 is executed successfully.");
 		log.println("Program is successfully completed without any issues.");
